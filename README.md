@@ -1,6 +1,5 @@
-# blockchain-vue-ui
-
-> A Vue.js project
+# Coffee Shop DApp
+Built with Truffle and Vue
 
 ## Build Setup
 
