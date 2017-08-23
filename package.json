@@ -1,7 +1,7 @@
 {
-  "name": "blockchain-vue-ui",
+  "name": "oftd-dapp",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Sample DApp using Truffle and Vue",
   "author": "Joshua J. Villahermosa <joshvillahermosa@gmail.com>",
   "private": true,
   "scripts": {
