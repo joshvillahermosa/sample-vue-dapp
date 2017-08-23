@@ -1,0 +1,20 @@
+{
+  "name": "Blockchain-Vue-UI",
+  "version": "1.0.0",
+  "description": "Getting to know Block chain with Vue UI",
+  "main": "app.js",
+  "author": "Joshua J. Villahermosa <joshvillahermosa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git cz"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
