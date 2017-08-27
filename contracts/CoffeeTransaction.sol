@@ -1,4 +1,4 @@
-pragma solidity ^0.0.4;
+pragma solidity ^0.4.4;
 
 /**
  * Sample coffee transaction
