@@ -1,0 +1,58 @@
+{
+  "contract_name": "CoffeeTransaction",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "coffeeId",
+          "type": "uint256"
+        }
+      ],
+      "name": "buy",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "buyers",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getBuyers",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[6]"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6102598061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d96a094a8114610053578063f2aa82181461007b578063f64bfaba146100ba575b600080fd5b341561005e57600080fd5b610069600435610106565b60405190815260200160405180910390f35b341561008657600080fd5b61009160043561017b565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100c557600080fd5b6100cd6101af565b604051808260c080838360005b838110156100f35780820151818401525b6020016100da565b5050505090500191505060405180910390f35b6000808210158015610119575060058211155b151561012457600080fd5b336000836006811061013257fe5b0160005b6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508190505b919050565b6000816006811061018857fe5b0160005b915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6101b7610205565b6000600660c0604051908101604052919060c0830182845b815473ffffffffffffffffffffffffffffffffffffffff1681526001909101906020018083116101cf575b505050505090505b90565b60c06040519081016040526006815b60008152600019909101906020018161021457905050905600a165627a7a72305820149cab410b4bd6685c06d905d2de5867833f626f703f6a3d8270fbed10e159360029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1503864572938
+}
