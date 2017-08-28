@@ -1,5 +1,6 @@
 var ConvertLib = artifacts.require("./ConvertLib.sol");
 var MetaCoin = artifacts.require("./MetaCoin.sol");
+var CoffeeTransaction = artifacts.require('./CoffeeTransaction.sol');
 
 module.exports = function(deployer) {
   deployer.deploy(ConvertLib);
