@@ -1,6 +1,13 @@
 # Coffee Shop DApp
 Built with Truffle and Vue
 
+## Truffle Setup
+1. Install truffle globally `npm install -g truffle ethereum-testrpc`
+1. Create and modify Solidity Files
+1. Run `truffle compile`
+1. Link Compiled solidity files in `/migrations/2_deploy_contracts.js`
+1. Run `truffle migrate`
+
 ## Build Setup
 
 ``` bash
