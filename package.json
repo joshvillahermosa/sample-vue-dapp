@@ -13,8 +13,9 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "testrpc": "testrpc",
-    "truffle-compile": "truffle compile",
-    "truffle-migrate": "truffle migrate"
+    "truffle:compile": "truffle compile",
+    "truffle:migrate": "truffle migrate",
+    "truffle:test": "truffle test"
   },
   "dependencies": {
     "ethereumjs-testrpc": "^4.1.1",
