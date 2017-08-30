@@ -29,5 +29,7 @@ npm run unit
 # run all tests
 npm test
 ```
+## Todo's
+[] - Configure `truffle test` to read from a specified test directory
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
